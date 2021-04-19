@@ -14,7 +14,7 @@
 #section2 {height: 700px;}
 #section3 {position:relative; height: 500px;}
 #tab-menu {
-  width: 95%; 
+  width: 50%; 
   background : #E3160F;
   position: absolute; left: 50%; top:10%;
   transform: translatex(-50%);
