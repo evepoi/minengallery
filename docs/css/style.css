@@ -39,36 +39,6 @@
 
 
 /* 컨텐츠 */
-.tab-menu {
-  width: 600px; 
-  background : #eaa110;
-  position: absolute; left: 50%; top:0;
-  transform: translatex(-50%);
-  border-radius: 4px;
-}
-.tab-btn ul {
-  overflow: hidden;
-}
-.tab-btn li {
-  float: left; width: 90px; text-align: center;
-}
-.tab-btn li a {
-  display: block; color: #fff; 
-  padding: 15px 20px; 
-  font-weight: bold;
-}
-.tab-btn li.active a {
-  border-bottom: 3px solid #2b210e;
-  color: #2b210e;
-}
-
-.section3 .tab-cont {
-  width: 100%; 
-  background: #fff; padding: 20px; 
-  box-sizing: border-box;
-  border-radius: 0 0 4px 4px;
-}
-
 
 /*column col1 : 제목(News)
 column col2 : News 내용
