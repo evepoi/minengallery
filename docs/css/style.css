@@ -12,7 +12,6 @@
 #contents {}
 #section1 {}
 #section2 {}
-#section3 {position: relative;}
 #section4 {}
 #con_top {width: 100%; max-width: 900px; margin: 30px auto;}
 #con_left {float: left; width: 50%; height: 770px;}
@@ -45,30 +44,31 @@
 a {text-decoration: none; color: #666;}
 li {list-style: none;}
 
-#tab-menu {
+.section3 {position: relative;}
+.section3 .tab-menu {
   width: 600px; 
   background : #eaa110;
   position: absolute; left: 50%; 
   transform: translatex(-50%);
   border-radius: 4px;
 }
-#tab-btn ul {
+.section3 .tab-btn ul {
   overflow: hidden;
 }
-#tab-btn li {
+.section3 .tab-btn li {
   float: left; width: 90px; text-align: center;
 }
-#tab-btn li a {
+.section3 .tab-btn li a {
   display: block; color: #fff; 
   padding: 15px 20px; 
   font-weight: bold;
 }
-#tab-btn li.active a {
+.section3 .tab-btn li.active a {
   border-bottom: 3px solid #2b210e;
   color: #2b210e;
 }
 
-#tab-cont {
+.section3 .tab-cont {
   width: 100%; 
   background: #fff; padding: 20px; 
   box-sizing: border-box;
