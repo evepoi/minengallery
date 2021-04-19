@@ -38,8 +38,39 @@
 .artlistnav li a:hover {color:#827717;}
 
 
-/* 컨텐츠
-column col1 : 제목(News)
+/* 컨텐츠 */
+#section3 {
+  width: 600px; 
+  background : #eaa110;
+  position: absolute; left: 50%; top: 100px;
+  transform: translatex(-50%);
+  border-radius: 4px;
+}
+#tab-btn ul {
+  overflow: hidden;
+}
+#tab-btn li {
+  float: left; width: 90px; text-align: center;
+}
+#tab-btn li a {
+  display: block; color: #fff; 
+  padding: 15px 20px; 
+  font-weight: bold;
+}
+#tab-btn li.active a {
+  border-bottom: 3px solid #2b210e;
+  color: #2b210e;
+}
+
+#tab-cont {
+  width: 100%; 
+  background: #fff; padding: 20px; 
+  box-sizing: border-box;
+  border-radius: 0 0 4px 4px;
+}
+
+
+/*column col1 : 제목(News)
 column col2 : News 내용
 column col3 : 유튜브 영상링크
 column col4 : 작품이미지
@@ -81,35 +112,6 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 * {padding: 0; margin: 0;}
 a {text-decoration: none; color: #666;}
 li {list-style: none;}
-#section3 {
-  width: 600px; 
-  background : #eaa110;
-  position: absolute; left: 50%; top: 100px;
-  transform: translatex(-50%);
-  border-radius: 4px;
-}
-#tab-btn ul {
-  overflow: hidden;
-}
-#tab-btn li {
-  float: left; width: 90px; text-align: center;
-}
-#tab-btn li a {
-  display: block; color: #fff; 
-  padding: 15px 20px; 
-  font-weight: bold;
-}
-#tab-btn li.active a {
-  border-bottom: 3px solid #2b210e;
-  color: #2b210e;
-}
-
-#tab-cont {
-  width: 100%; 
-  background: #fff; padding: 20px; 
-  box-sizing: border-box;
-  border-radius: 0 0 4px 4px;
-}
 
 /* mediaquery */
 /* 화면너비 0~1220px */
