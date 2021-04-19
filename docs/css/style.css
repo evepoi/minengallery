@@ -48,7 +48,7 @@ li {list-style: none;}
 #tab-menu {
   width: 600px; 
   background : #eaa110;
-  position: absolute; left: 50%; top: 100px;
+  position: absolute; left: 50%; 
   transform: translatex(-50%);
   border-radius: 4px;
 }
