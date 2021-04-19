@@ -38,6 +38,7 @@
 
 
 /* 컨텐츠 */
+.section3 {position: relative;}
 .section3 .tab-menu {
   width: 600px; 
   background : #eaa110;
