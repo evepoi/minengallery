@@ -1,4 +1,4 @@
-var tabBtn = $("#tab-btn > ul > li");     //각각의 버튼을 변수에 저장
+    var tabBtn = $("#tab-btn > ul > li");     //각각의 버튼을 변수에 저장
 var tabCont = $("#tab-cont > div");       //각각의 콘텐츠를 변수에 저장
 
 //컨텐츠 내용을 숨겨주세요!
