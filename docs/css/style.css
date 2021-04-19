@@ -12,6 +12,7 @@
 #contents {}
 #section1 {}
 #section2 {}
+#section3 {}
 #section4 {}
 #con_top {width: 100%; max-width: 900px; margin: 30px auto;}
 #con_left {float: left; width: 50%; height: 770px;}
@@ -38,26 +39,25 @@
 
 
 /* 컨텐츠 */
-.section3 {position: relative;}
-.section3 .tab-menu {
+.tab-menu {
   width: 600px; 
   background : #eaa110;
   position: absolute; left: 50%; top:0;
   transform: translatex(-50%);
   border-radius: 4px;
 }
-.section3 .tab-btn ul {
+.tab-btn ul {
   overflow: hidden;
 }
-.section3 .tab-btn li {
+.tab-btn li {
   float: left; width: 90px; text-align: center;
 }
-.section3 .tab-btn li a {
+.tab-btn li a {
   display: block; color: #fff; 
   padding: 15px 20px; 
   font-weight: bold;
 }
-.section3 .tab-btn li.active a {
+.tab-btn li.active a {
   border-bottom: 3px solid #2b210e;
   color: #2b210e;
 }
