@@ -42,6 +42,14 @@
   box-sizing: border-box;
   border-radius: 0 0 4px 4px;
 }
+#tab-cont .iframe {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
 #section4 {}
 #con_top {width: 100%; max-width: 900px; margin: 30px auto;}
 #con_left {float: left; width: 50%; }
