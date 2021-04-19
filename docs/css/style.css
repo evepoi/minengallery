@@ -77,22 +77,6 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 * {padding: 0; margin: 0;}
 a {text-decoration: none; color: #666;}
 li {list-style: none;}
-body {
-  background: #0137a1 url(https://tistory3.daumcdn.net/tistory/2808281/skin/images/background03.jpg) no-repeat center center fixed;
-  background-size: cover;
-  font-family: 'Abel', sans-serif;
-  font-size: 14px;
-  line-height: 1.6em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-body::before {
-  content:'';
-  position: fixed; top: 0; left: 0;
-  z-index: -1;
-  background: rgba(50,37,11,0.9);
-  width: 100%; height: 100%;
-}
 #tab-menu {
   width: 600px; 
   background : #eaa110;
