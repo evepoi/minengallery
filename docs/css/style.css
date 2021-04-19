@@ -38,12 +38,6 @@
 
 
 /* 컨텐츠 */
-@import url('https://fonts.googleapis.com/css?family=Abel');
-
-* {padding: 0; margin: 0;}
-a {text-decoration: none; color: #666;}
-li {list-style: none;}
-
 .section3 {position: relative;}
 .section3 .tab-menu {
   width: 600px; 
