@@ -77,7 +77,7 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 * {padding: 0; margin: 0;}
 a {text-decoration: none; color: #666;}
 li {list-style: none;}
-#tab-menu {
+#section3 {
   width: 600px; 
   background : #eaa110;
   position: absolute; left: 50%; top: 100px;
