@@ -2,7 +2,7 @@
 
 /* 스킵 내비게이션 */
 #skip {position: relative;}
-#skip a {position: absolute; left: 0px; top: -40px; border: 1px solid #fff; color: #fff; background: #333;line-height: 30px; width: 140px; text-align: center;font-size: 20px;}
+#skip a {position: absolute; left: 0px; top: -100px; border: 1px solid #fff; color: #fff; background: #333;line-height: 30px; width: 140px; text-align: center;font-size: 20px;}
 #skip a:active,
 #skip a:focus {top:0; }
 
@@ -23,10 +23,10 @@
 
 /* 전체메뉴 */
 .nav {position: fixed; left: 0; top: 0; width: 100%;}
-.nav h1 {float: left; color: #fff; font-size: 40px; padding: 5px 5px 5px 15px; font-family: 'Abel' }
+.nav h1 {float: left; font-size: 40px; padding: 5px 5px 5px 15px;}
 .nav ul {float: right; padding-right: 10px; }
 .nav ul li {display: inline; }
-.nav ul li a {display: inline-block; padding: 20px 15px; font-weight: bold; font-family: 'Abel'; text-transform: capitalize;}
+.nav ul li a {display: inline-block; padding: 20px 15px; font-weight: bold; text-transform: capitalize;}
 .artlistnav li a:hover {color:#827717;}
 .artlistnav {text-align: center;}
 .artlistnav li {float: left; width: 18%; margin: 1%;}
