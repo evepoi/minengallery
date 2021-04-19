@@ -21,6 +21,9 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 
 .text {position: relative; text-align: left;}
 .text h3 {text-align: left; padding: 0 0 0 30px; font-size: 2em;}
+.exh {width: 100%; height: auto;}
+.artsale {}
+.artsale h5 {text-align: left; padding: 0 0 0 30px; font-size: 20px;}
 
 .column {text-align: center;}
 .column.col1 {}
@@ -47,11 +50,6 @@ column col5 : 유튜브 영상 제목, 작품이미지 */
 .column.col5 {}
 .column.col5 h4 {font-size: 30px;}
 .column.col5 h5 {font-size: 15px;}
-
-/* section */
-#section2 {background:radial-gradient(ellipse farthest-corner at center top, #cbf49a, #1ea623);}
-#section3 {background:radial-gradient(ellipse farthest-corner at center top, #ffee75, #ff8930);}
-#section4 {background:radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4);}
 
 /* 컨테이너 */
 .container {width: 1200px; margin: 0 auto;}
