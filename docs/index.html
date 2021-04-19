@@ -63,7 +63,7 @@
     <!-- // 전체메뉴-->
     
     <main>
-        <section class="contents">
+        <section id="contents">
             <section id="section1">
                 <div class="container">
                     <h2 class="ir_su">News 내용</h2>
@@ -212,7 +212,7 @@
     <script src="js/modernizr-custom.js"></script>
     <script>
         var nav = $("#nav ul li");
-        var cont = $(".contents > #section");
+        var cont = $("#contents > #section");
         
         nav.click(function(e){
             e.preventDefault();
