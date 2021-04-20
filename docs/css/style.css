@@ -1,15 +1,9 @@
 @charset "utf-8";
 
 /* 레이아웃 */
-#nav {position: fixed; left: 0; top: 0; width: 100%; background-color: rgba(255,255,255,0.3);}
-#nav h1 {float: left; font-size: 40px; padding: 5px 5px 5px 15px; font-family: 'Abel' }
-#nav ul {float: right; padding-right: 10px; }
-#nav ul li {display: inline; }
-#nav ul li a {display: inline-block; padding: 20px 15px; font-weight: bold; font-family: 'Abel'; text-transform: capitalize;}
-
 #contents {text-align: center;}
-#contents > div {padding: 0 0 50px 0;}
-#contents > div h2 {padding: 60px 0 10px 0; font-size: 40px; font-weight: 30px; text-transform: uppercase;}
+#contents > div {}
+#contents > div h2 {margin: 10px; font-size: 40px; font-weight: 30px; text-transform: uppercase;}
 #contents > div h2 strong {font-weight: 100px ; font-style: italic;}
 
 /* 내용*/
