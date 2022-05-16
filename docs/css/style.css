@@ -22,7 +22,7 @@
 
 .header .nav {float: right;}
 .header .nav ul {border-left: 1px solid #c6c6c6;}
-.header .nav ul li {float: left; width: 130px; text-align: center; border-right: 1px solid #c6c6c6;}
+.header .nav ul li {float: left; width: 178px; text-align: center; border-right: 1px solid #c6c6c6;}
 .header .nav ul li a {display: block; padding: 25px 20px; font-size: 30px; font-weight: 700; color: #444;}
 
 /* 포스터 영역 */
